@@ -11,19 +11,39 @@
             position: relative;
             top: 100px;
         }
+        #clock {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            text-align: center;
+            font: bold 11px;
+            
+        }
         ul {
             list-style: none;
             padding: 10;
             margin: 0;
             position: relative;
             top: 0px;
-            left: 700px;
+            left: 500px;
             font-size: 20px;
+            
+        }
+        li:first-child {
+            position: relative;
+            top: 0px;
+            left: -500px;
+            border: 1px dashed black;
+            
         }
         li {
             display: inline-block;
             padding: 15px;
-            margin: auto;
+            margin: 1px;
+            border: solid 1px black;
+            border-radius: 30px;
+        }
+        li:hover {
+            background-color: gray;
         }
         a:active{
             text-decoration: none;
@@ -32,6 +52,7 @@
         a:hover {
             text-decoration: none;
             color: red;
+            
         }
         a:link {
             text-decoration: none;
@@ -91,5 +112,24 @@
             position: relative;
             top: 200px;
             left: 400px;
+            font-size: 15px;
+        }
+        #unit2 {
+            font-size: 15px;
+            position: relative;
+            top: 4000px;
+            left: 400px;
+            z-index: inherit;
+        }
+        .imgpoetry {
+            position: relative;
+            top: 100px;
+            left: 650px;
+            font-size: 15px;
+        }
+        .imgromeoandjuliet {
+            position: relative;
+            top: 100px;
+            left: 650px;
             font-size: 15px;
         }
